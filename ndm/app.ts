@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-import { Response, Request } from "express"
+import { Request, Response } from "express"
 
 interface Legends {
     name: string
