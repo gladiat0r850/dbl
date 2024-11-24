@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "app.ts",
     "scripts": {
+        "build": "tsc",
         "start": "nodemon app.ts"
     },
     "dependencies": {
@@ -11,5 +12,8 @@
     "devDependencies": {
         "ts-node": "^10.9.1",
         "typescript": "^5.7.2"
+    },
+    "engines": {
+      "node": "v20.16.0"
     }
 }
