@@ -1,5 +1,4 @@
-const express = require("express"); // Proper ES Module import
-
+const express = require("express");
 const app = express();
 
 const team = [
